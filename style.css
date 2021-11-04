@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+html {
+       
+        font-family: 'Lora', serif;
+        align-items: center;
+        background-color: whitesmoke;
+        text-align: center;
+}
+
+li {
+        padding-top: 1em;
+}
+
+
+
+.timeline {
+
+        margin: auto;
+       border: 3px solid whitesmoke;
+      width:  70%;
+      background-color: white;
+      margin-top: 4%;
+      text-align: left;
+      letter-spacing: 0.0625em;
+      word-spacing: 0.3em;
+      line-height: 1.6;
+
+}
+
+
+
+
+
+
+#sub-heading {
+      
+       padding: auto;
+       padding-bottom: 1em;
+       font-weight: 550;
+        
+
+}
+
+
+
+#main {
+
+        margin: auto;
+        width: 70%;
+         border: 3px solid rgb(209, 209, 209);
+         background-color: white;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       
+         
+}
+
+
+.quotes {
+        padding-top:2.5em;
+}
+.quotes-align {
+       
+        line-height: 2;
+        
+}
+
+#title {
+       padding: auto;
+       text-align: center;
+       padding-top: 1em;
+       font-weight: 900;
+ 
+}
+
+
+
+
+a {
+        text-decoration: none;
+        font-size: large;
+}
+
+ a:hover {
+        text-decoration: underline;
+        font-size: large;
+}
+
+
+#img-div {
+       
+        
+        
+}
+
+#image {
+        
+      
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+
+        
+       
+        
+ 
+}
+
+
+
+#img-caption {
+
+        padding: auto;
+        padding-top: 1em;
+}
+
+#tribute-info {
+               
+}
+
+
+#tribute-link {
+    
+        
+
+}
+
+.bottom-adjust {
+        padding-bottom: 4em;
+}
+
+h2 {
+       
+        padding-top: 1.4em;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+        #main {
+                
+                border: none;
+                box-shadow: none;
+                background-color: whitesmoke;
+                width: 90%;
+        }
+
+        .timeline {
+                width: 90%;
+        }
+}
